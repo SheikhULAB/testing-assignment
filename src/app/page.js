@@ -1,9 +1,7 @@
-import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
      <div className="container mx-auto p-8">
-       <Navbar />
       <h1 className="text-3xl font-bold mb-4">Welcome to My Personal Homepage</h1>
       <p className="mb-6">
         Hello! I'm Sheikh Yeamin, a passionate front-end developer with expertise in

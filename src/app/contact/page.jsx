@@ -1,5 +1,4 @@
 "use client"
-import Navbar from '@/components/Navbar';
 import React, { useState } from 'react';
 
 const ContactPage = () => {
@@ -16,7 +15,6 @@ const ContactPage = () => {
 
   return (
     <div className="container mx-auto p-8">
-        <Navbar />
       <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
       {submitted ? (
         <p className="text-green-500 mb-4">Thank you for your message!</p>
